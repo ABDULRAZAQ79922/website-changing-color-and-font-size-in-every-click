@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background 1s ease, font-size 0.5s ease;
+}
+.container {
+    text-align: center;
+    animation: fadeIn 2s;
+}
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.content {
+    font-size: 1.2em;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
